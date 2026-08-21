@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
 
       - name: Build and deploy
-        uses: shalzz/zola-deploy-action@c34a7626cd84c9c90499afeb310070ea838a8d1a # v0.20.0
+        uses: shalzz/zola-deploy-action@2f512f31e2e912d5fbd15f319c9c1bfbcfa90a55 # v0.23.4
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUILD_THEMES: false
